@@ -36,9 +36,21 @@ let exemplo5 =["aluno1","aluno2"];
 //CONVERSÕES
 
 let numfloat =123.456;
-console.log(parseInt(numFloat));
+console.log(parseInt(numfloat));
 
 let numString="123.456";
 console.log(parseFloat(numString));
 
-let 
+//METODOS
+let frase ="Tralalelo tralala"
+console.log(frase.length);
+
+//indexOf -retorna um teho do texto
+
+let texto="bombardilo crocodilo";
+console.log(texto.indexOf("ilo"));
+
+//slice - retorna um techo do texto com inicio e final
+
+let info ="aku mau tung tung tung tung sahur";
+console.log(info.slice(1,9));
