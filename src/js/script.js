@@ -17,4 +17,18 @@ console.log(nome1);
 let nome2=null
 console.log(nome2);
 
+//TIPOS DE VARIAVEIS
 
+let exemplo1=10;
+console.log(typeof exemplo1);
+
+let exemplo2="tecnologia";
+console.log(exemplo2);
+
+let exemplo3=true;
+console.log(typeof exemplo3);
+
+let exemplo4={};
+console.log(typeof exemplo4)
+
+let exemplo5 =["aluno1","aluno2"];
