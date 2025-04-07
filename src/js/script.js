@@ -140,3 +140,10 @@ const desconto = true;
 const preco= produto == 'ebook' ? desconto ? 100 : 200 : produto === 'mouse' ? 30 : 100;
 console.log(preco)
 
+//ESTRUTURA DE REPETIÇÃO
+
+//FOR
+
+for(let i=0; i<=10;i++){ // i por index, é uma boa prática
+    console.log('o valor de i é: ' ,i)
+}
