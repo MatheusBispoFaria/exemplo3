@@ -68,14 +68,62 @@
 
 // OPERADORES LÓGICOS
 
-const num3=10;
-const num4=20;
+// const num3=10;
+// const num4=20;
 
-console.log(num3 < num4);
-console.log(num3 > num4 && num4 < num3);
-console.log(num3 > num4 || num4 < num3);
+// console.log(num3 < num4);
+// console.log(num3 > num4 && num4 < num3); // e
+// console.log(num3 > num4 || num4 < num3); // ou
 
 // OPERADORES DE COMPARAÇÃO
 
-console.log(num3 == num4); //a variavel esta sendo comparada
-console.log(num3 === num4); //o valor e o tipo de variavel estão sendo comparados
+// console.log(num3 == num4); //a variavel esta sendo comparada
+// console.log(num3 === num4); //o valor e o tipo de variavel estão sendo comparados
+
+// ESTRUTURA CONDICIONAL
+
+//let(logado="fiap")
+
+//if(logado="city"){
+    //console.log("é verdadeiro")
+//}
+
+//if else
+//let(usuario ="teste")
+
+//if(usuario =='teste'){
+//    console.log("usuario correto")
+//}else{
+  //  console.log("usuario errado")
+//}
+
+//if em cadeado / alinhando
+
+// let idade = 15
+
+// if(idade >= 18){
+//     console.log('liberado pae pode passar')
+// }else{
+//     console.log('cheiro de leite')
+// }
+
+
+// switch
+
+let time ="São Paulo"
+
+switch(time){
+    case'Corinthians':
+        console.log('melhor time')
+        break;
+    case "São Paulo":
+        console.log('não é o melhor time')
+        break;
+    case "palmeiras":
+        console.log('não tem mundial')
+        break;
+    default:
+        console.log('nenhuma das opções')
+}
+
+// ternário
