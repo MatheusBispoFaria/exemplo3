@@ -110,20 +110,33 @@
 
 // switch
 
-let time ="São Paulo"
+// let time ="São Paulo"
 
-switch(time){
-    case'Corinthians':
-        console.log('melhor time')
-        break;
-    case "São Paulo":
-        console.log('não é o melhor time')
-        break;
-    case "palmeiras":
-        console.log('não tem mundial')
-        break;
-    default:
-        console.log('nenhuma das opções')
-}
+// switch(time){
+//     case'Corinthians':
+//         console.log('melhor time')
+//         break;
+//     case "São Paulo":
+//         console.log('não é o melhor time')
+//         break;
+//     case "palmeiras":
+//         console.log('não tem mundial')
+//         break;
+//     default:
+//         console.log('nenhuma das opções')
+// }
 
 // ternário
+
+// let valor = 100;
+
+// let resultado = valor == 100  ? 'certo' :'errado'
+// console.log(resultado)
+
+// ternário em cadeado
+let produto = 'ebook';
+const desconto = true;
+
+const preco= produto == 'ebook' ? desconto ? 100 : 200 : produto === 'mouse' ? 30 : 100;
+console.log(preco)
+
